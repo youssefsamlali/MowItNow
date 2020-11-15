@@ -1,0 +1,23 @@
+@startuml
+Pelouse "1" -- "*" Tondeuse
+skinparam classAttributeIconSize 0
+class Pelouse {
+ -xTopRight: Int
+ -yTopRight: Int
+ +setPelouse(String): Unit
+ +getXMax(): Int
+ +getYMax(): Int
+
+}
+class Tondeuse {
+ -x: Int
+ -y: Int
+ -orientation: Char
+ +moveRight(): Unit
+ +moveLeft(): Unit
+ +moveForward(Pelouse): Unit
+ +getX(): Int
+ +getY(): Int
+ +getOrientation(): Char
+}
+@enduml
