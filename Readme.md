@@ -12,7 +12,7 @@ Le langague utilisé pour écrire ce programme est le langague scala
 Pour écrire ce projet, j'ai choisi de partir sur une simple configuration 
 avec 2 classes(Tondeuse,Pelouse) et un objet Main, représenté par le diagramme UML suivant:
 
-![alt UML](UML.png)
+![alt UML](src/UML.png)
 
 
 ### La classe Pelouse :
